@@ -2,6 +2,7 @@
 layout: post 
 title:  The MVP of my own kubernetes cluster
 categories: [k8s, CI/CD, Azure DevOps, AWS, IKS, GC, CQRS, Microservices]
+excerpt: I'm going to build my own kubernetes cluster for my project. MVP time!
 ---
 
 I have this [Encyclopedia Galactica](https://github.com/EncyclopediaGalactica) project and beside
