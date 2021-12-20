@@ -2,7 +2,9 @@
 layout: post 
 title:  The MVP of my own kubernetes cluster
 categories: [k8s, CI/CD, Azure DevOps, AWS, IKS, GC, CQRS, Microservices]
-excerpt: What good looks like in terms of my own Kubernetes cluster.
+excerpt: DevOps is extremely important in software delivery. I have a project which is important
+for me, and it is a good candidate for learning DevOps things. This journey starts with a plan
+what my cluster, based on k8s, going to look like.
 ---
 
 I have this [Encyclopedia Galactica](https://github.com/EncyclopediaGalactica) project and beside
