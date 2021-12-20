@@ -1,5 +1,6 @@
 ---
-layout: post title:  The MVP of my own kubernetes cluster
+layout: post 
+title:  The MVP of my own kubernetes cluster
 categories: [k8s, CI/CD, Azure DevOps, AWS, IKS, GC, CQRS, Microservices]
 excerpt: What good looks like in terms of my own Kubernetes cluster.
 ---
@@ -64,16 +65,16 @@ is needed. Creation also includes figuring out the network and load balancing pa
 don't have an idea how I'd like to do it, but I'll provide details when I write about the
 implementation.
 
-| Module Name                        | Docker Image        | CI/CD               | Nuget package       |
-|------------------------------------|:--------------------|:--------------------|:--------------------|
-| UI Service                         | :white_check_mark:  | :white_check_mark:  | :x:                 |
-| SourceFormat SDK                   | :x:                 | :white_check_mark:  | :white_check_mark:  |
-| SourceFormat Api                   | :white_check_mark:  | :white_check_mark:  | :x:                 |
-| SourceFormat Topic / Kafka cluster | :white_check_mark:  | :white_check_mark:  | :x:                 |
-| SourceFormat Worker                | :white_check_mark:  | :white_check_mark:  | :x:                 |
-| Results Api                        | :white_check_mark:  | :white_check_mark:  | :x:                 |
-| PostgreSQL RDBMS                   | :white_check_mark:  | :white_check_mark:  | :x:                 |
-| Redis                              | :white_check_mark:  | :white_check_mark:  | :x:                 |
+| Module Name                        | Docker Image | CI/CD | Nuget package |
+|------------------------------------|:-------------|:------|:--------------|
+| UI Service                         | yes          | yes   | no            |
+| SourceFormat SDK                   | no           | yes   | yes           |
+| SourceFormat Api                   | yes          | yes   | no            |
+| SourceFormat Topic / Kafka cluster | yes          | yes   | no            |
+| SourceFormat Worker                | yes          | yes   | no            |
+| Results Api                        | yes          | yes   | no            |
+| PostgreSQL RDBMS                   | yes          | yes   | no            |
+| Redis                              | yes          | yes   | no            |
 
 The study materials
 
